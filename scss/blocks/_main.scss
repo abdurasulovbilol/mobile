@@ -112,6 +112,11 @@ form {
       text-decoration: none;
       color: white;
       border-radius: 20px;
+      transition: 0.5s;
+      &:hover {
+        background-color: white;
+        color: black;
+      }
     }
   }
   &__text {
