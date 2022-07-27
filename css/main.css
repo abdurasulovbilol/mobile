@@ -656,4 +656,55 @@ form button:hover {
   .section6__form form {
     text-align: center;
   }
+}
+footer {
+  background-color: rgb(16, 24, 75);
+}
+
+.footer {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer img {
+  max-width: 100px;
+}
+.footer__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.footer__list-item {
+  margin-left: 20px;
+}
+.footer__list-item a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s;
+}
+.footer__list-item a:hover {
+  color: white;
+}
+.footer__icons i {
+  margin: 0px 10px;
+  color: bisque;
+  transition: 0.5s;
+}
+.footer__icons i:hover {
+  color: red;
+}
+
+@media only screen and (max-width: 497px) {
+  .footer {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .footer__list {
+    text-align: center;
+  }
+  .footer__icons {
+    align-items: center;
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=main.css.map */
