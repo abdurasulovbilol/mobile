@@ -703,9 +703,15 @@ footer {
 @media only screen and (max-width: 497px) {
   .footer {
     flex-direction: column;
-    margin: 0 auto;
+    text-align: center;
   }
   .footer__list {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .footer__list-item {
+    margin: 10px auto;
     text-align: center;
   }
   .footer__icons {
