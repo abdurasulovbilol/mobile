@@ -444,6 +444,11 @@ form button {
   background-color: #ba4270;
   border: none;
   cursor: pointer;
+  transition: 0.5s;
+}
+form button:hover {
+  background-color: #c16185;
+  color: white;
 }
 
 @media only screen and (max-width: 600px) {
@@ -611,5 +616,44 @@ form button {
 @media only screen and (max-width: 955px) {
   .section5 {
     flex-wrap: wrap;
+  }
+}
+.section6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.section6 h6 {
+  font-size: 30px;
+  color: gray;
+  margin: 0 20px;
+}
+.section6__form {
+  margin-right: 132px;
+}
+.section6__form button {
+  right: -120px;
+}
+
+@media only screen and (max-width: 670px) {
+  .section6 {
+    flex-direction: column;
+    margin: 20px 30px;
+  }
+  .section6 h6 {
+    margin: 20px 0px;
+  }
+  .section6__form button {
+    position: static;
+  }
+  .section6__form {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .section6__form form {
+    text-align: center;
   }
 }/*# sourceMappingURL=main.css.map */
