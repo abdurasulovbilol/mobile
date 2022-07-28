@@ -21,10 +21,13 @@ body {
     justify-content: space-between;
     align-items: center;
     position: relative;
+    margin: 0 10px;
   }
   &__list {
     display: flex;
     align-items: center;
+    margin: 20px 0px;
+    padding: 0;
   }
   &__list-item {
     margin-left: 40px;
@@ -38,6 +41,9 @@ body {
         color: black;
       }
     }
+  }
+  &__list-logo {
+    list-style: none;
   }
   &__button {
     text-decoration: none;

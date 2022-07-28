@@ -331,10 +331,13 @@ body {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  margin: 0 10px;
 }
 .header__list {
   display: flex;
   align-items: center;
+  margin: 20px 0px;
+  padding: 0;
 }
 .header__list-item {
   margin-left: 40px;
@@ -347,6 +350,9 @@ body {
 }
 .header__list-item a:hover {
   color: black;
+}
+.header__list-logo {
+  list-style: none;
 }
 .header__button {
   text-decoration: none;
@@ -379,6 +385,7 @@ body {
 }
 .section1 {
   margin-top: -50px;
+  margin: 0 10px;
   display: flex;
 }
 .section1__mobile-img img {
@@ -571,6 +578,10 @@ form button:hover {
 }
 .section4__text h4 {
   font-size: 35px;
+}
+.section4__mobile {
+  margin-left: -100px;
+  max-width: 200px;
 }
 
 .section4-phone-back {

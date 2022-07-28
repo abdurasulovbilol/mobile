@@ -1,5 +1,6 @@
 .section1 {
   margin-top: -50px;
+  margin: 0 10px;
   display: flex;
   &__mobile-img img {
     max-width: 550px;
@@ -199,6 +200,11 @@ form {
     h4 {
       font-size: 35px;
     }
+  }
+  &__mobile {
+    margin-left: -100px;
+    // margin: 0;
+    max-width: 200px;
   }
 }
 .section4-phone-back {
