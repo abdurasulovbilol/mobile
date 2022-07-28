@@ -34,12 +34,25 @@
   @media only screen and (max-width: 620px) {
     .section1__mobile-img img {
       max-width: 400px;
-      //   margin-left: 40px;
+      margin-left: 42px;
     }
     .section1 {
       h1 {
         font-size: 50px;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .section1__mobile-img img {
+    display: none;
+  }
+  .section1__second-mobile {
+    display: block;
+    img {
+      max-width: 360px;
+      margin-left: 11px;
     }
   }
 }
