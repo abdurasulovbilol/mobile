@@ -400,6 +400,9 @@ body {
 .section1__text h1 {
   font-size: 74px;
 }
+.section1__second-mobile {
+  display: none;
+}
 
 @media only screen and (max-width: 1023px) {
   .section1 {
@@ -419,6 +422,20 @@ body {
   }
   .section1 h1 {
     font-size: 50px;
+  }
+}
+@media only screen and (max-width: 391px) {
+  .section1__mobile-img img {
+    display: none;
+  }
+  .section1__second-mobile {
+    display: block;
+  }
+  .section1__second-mobile img {
+    max-width: 280px;
+  }
+  .section1 form input {
+    max-width: 50%;
   }
 }
 @media only screen and (max-width: 420px) {
@@ -472,8 +489,9 @@ form button:hover {
   color: white;
   display: flex;
   justify-content: space-between;
-  padding: 20px 20px;
+  margin: 20px 0px;
   margin-top: 50px;
+  padding-bottom: 30px;
 }
 .section2 h2 {
   font-size: 40px;
@@ -554,6 +572,17 @@ form button:hover {
   }
   .section3__text p {
     margin: 0 20px;
+  }
+}
+@media only screen and (max-width: 377px) {
+  .section2 img {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 386px) {
+  .section3__img img {
+    max-width: 300px;
+    margin: 0 auto;
   }
 }
 .section4 {
@@ -687,6 +716,9 @@ form button:hover {
   .section6__form form {
     text-align: center;
   }
+  .section6__form form input {
+    max-width: 65%;
+  }
 }
 footer {
   background-color: rgb(16, 24, 75);
@@ -707,7 +739,7 @@ footer {
   list-style: none;
 }
 .footer__list-item {
-  margin-left: 20px;
+  margin-left: 15px;
 }
 .footer__list-item a {
   text-decoration: none;
@@ -721,7 +753,7 @@ footer {
   margin: 0px 10px;
   color: bisque;
   transition: 0.5s;
-  font-size: 30px;
+  font-size: 20px;
 }
 .footer__icons i:hover {
   color: red;
