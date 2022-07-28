@@ -321,6 +321,11 @@ body {
   top: 0;
 }
 
+@media only screen and (max-width: 660px) {
+  .wrapper img {
+    top: -200px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .wrapper img {
     top: -200px;
