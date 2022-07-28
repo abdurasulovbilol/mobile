@@ -125,7 +125,6 @@ form {
   }
   &__text1 {
     max-width: 400px;
-
     a {
       padding: 10px 30px;
       border: 1px solid rgb(255, 255, 255);
@@ -142,10 +141,14 @@ form {
   }
   &__text {
     display: flex;
-    margin: 30px 0px;
+    // margin: 30px 0px;
+    img {
+      margin: 20px 0;
+    }
   }
   img {
     margin-left: 30px;
+    max-width: 160px;
   }
   &__flex {
     margin: 60px 0px;
