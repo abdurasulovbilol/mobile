@@ -758,6 +758,9 @@ footer {
 .footer__icons i:hover {
   color: red;
 }
+.footer__icons a {
+  list-style: none;
+}
 
 @media only screen and (max-width: 497px) {
   .footer {
