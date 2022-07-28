@@ -221,7 +221,7 @@ form {
     display: none;
   }
 }
-@media only screen and (max-width: 901px) {
+@media only screen and (max-width: 1300px) {
   .section4 {
     flex-direction: column-reverse;
     align-items: center;
@@ -232,11 +232,26 @@ form {
     margin: 0 20px;
   }
   .section4__img img {
-    max-width: 190px;
+    max-width: 287px;
     margin-left: -34px;
   }
 }
 
+@media only screen and (max-width: 580px) {
+  .section4__img img {
+    max-width: 200px;
+  }
+}
+@media only screen and (max-width: 403px) {
+  .section4__img img {
+    max-width: 150px;
+  }
+}
+@media only screen and (max-width: 386px) {
+  .section4__img img {
+    max-width: 100px;
+  }
+}
 .section5 {
   display: flex;
   justify-content: space-between;
